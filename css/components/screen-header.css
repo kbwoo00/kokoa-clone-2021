@@ -12,5 +12,16 @@
 }
 
 .screen-header__icons span {
+  font-size: 20px;
   margin-left: 25px;
+}
+.screen-header__icons-dot {
+  display: flex;
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 5px;
+  position: absolute;
+  right: 18px;
+  top: 45px;
 }
