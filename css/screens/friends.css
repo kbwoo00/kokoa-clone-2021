@@ -48,3 +48,29 @@
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 1s;
 }
+/*재미용
+@keyframes hideSplashScreen2 {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(3);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+#splash-screen2 {
+  background-color: var(--yellow);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
+  animation: hideSplashScreen2 1s linear infinite;
+}
+*/
