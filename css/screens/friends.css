@@ -48,7 +48,7 @@
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 1s;
 }
-/*재미용
+/*
 @keyframes hideSplashScreen2 {
   0% {
     transform: none;
@@ -57,7 +57,7 @@
     transform: scale(3);
   }
   100% {
-    transform: rotateZ(360deg);
+    transform: rotateY(180deg);
   }
 }
 
@@ -72,5 +72,4 @@
   align-items: center;
   font-size: 150px;
   animation: hideSplashScreen2 1s linear infinite;
-}
-*/
+}*/
