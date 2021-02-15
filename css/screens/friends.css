@@ -48,7 +48,7 @@
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 1s;
 }
-/*
+
 @keyframes hideSplashScreen2 {
   0% {
     transform: none;
@@ -72,4 +72,4 @@
   align-items: center;
   font-size: 150px;
   animation: hideSplashScreen2 1s linear infinite;
-}*/
+
