@@ -1,26 +1,28 @@
 .more-screen .icon-row {
   margin-top: 35px;
 }
-.more-suggestions {
+.more-place {
   margin-top: 50px;
   border-top: var(--main-border);
   padding-top: 40px;
 }
-.more-suggestions__title {
+.more-place__title {
   margin-bottom: 30px;
+  font-size: 30px;
 }
-.more-suggestions__icon-image img {
-  width: 60px;
-  height: 60px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-.more-suggestions__icons {
+.more-place__img {
   display: flex;
+  justify-content: space-between;
 }
-.more-suggestions__icon {
-  margin-right: 30px;
+.more-place__img img {
+  width: 230px;
+  height: 250px;
+  border-radius: 50px;
+}
+.more-place__img__1,
+.more-place__img__2 {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  font-size: 25px;
+  text-align: center;
 }
