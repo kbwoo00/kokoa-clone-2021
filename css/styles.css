@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Truculenta&display=swap");
 @import "reset.css";
 @import "variables.css";
 
@@ -21,8 +22,15 @@
 @import "screens/chat.css";
 
 body {
-  color: #2e363e;
+  color: #0a043c;
   font-family: "Open Sans", sans-serif;
+  background: url(https://i.pinimg.com/236x/48/e3/4e/48e34e2d1b8724c195f3722eea8ff983.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Truculenta", sans-serif;
 }
 .main-screen {
   padding: 0px var(--horizontal-space);

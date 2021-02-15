@@ -1,9 +1,26 @@
+.no-mobile__img {
+  width: 350px;
+  height: 350px;
+  border-radius: 175px;
+}
+.no-mobile__contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-mobile__contents span {
+  font-size: 50px;
+  color: white;
+  font-weight: 600;
+}
 #no-mobile {
-  position: absolute;
+  position: fixed;
+  left: 0;
   z-index: 99;
   height: 100vh;
   width: 100vw;
-  background-color: var(--yellow);
+  background-color: #99bbad;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +28,7 @@
   top: 0;
 }
 
-@media screen and (max-width: 645px) {
+@media screen and (max-width: 650px) {
   #no-mobile {
     display: none;
   }

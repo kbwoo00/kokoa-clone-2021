@@ -6,12 +6,14 @@
   align-items: center;
 }
 .welcome-header__title {
-  margin-bottom: 20px;
-  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 35px;
+  font-weight: 600;
 }
 .welcome-header__text {
   width: 60%;
-  opacity: 0.7;
+  font-size: 25px;
 }
 #login-form {
   display: flex;
@@ -23,6 +25,7 @@
   border: none;
   font-size: 18px;
   margin-bottom: 25px;
+  border-radius: 15px;
 }
 #login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -32,10 +35,10 @@
   color: rgba(0, 0, 0, 0.4);
 }
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: red;
 }
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: #fce38a;
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
@@ -43,6 +46,7 @@
 #login-form a {
   text-align: center;
   text-decoration: none;
-  color: inherit;
-  font-size: 13px;
+  color: #822659;
+  font-size: 20px;
+  font-weight: 600;
 }

@@ -36,7 +36,12 @@
 }
 
 #splash-screen {
-  background-color: var(--yellow);
+  background: url(https://i.pinimg.com/236x/f0/a1/63/f0a1631fb5c002a5c10afe5f6db0d888.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   position: absolute;
   height: 100vh;
   width: 100vw;
